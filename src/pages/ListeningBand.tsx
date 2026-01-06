@@ -71,14 +71,14 @@ const ListeningBand: React.FC = () => {
     // UPDATED PROMPT WITH MORE TOPICS
     const userPrompt = `Generate a generic IELTS Section 2 Monologue (approx 200-250 words). 
     
-    Pick a RANDOM topic from this list below:
-    - A tour guide describing a historic building or museum layout.
-    - A radio presenter talking about a local charity event or festival.
-    - A club secretary explaining membership rules (e.g., Hiking club, Gym, Drama society).
-    - An HR manager giving an orientation talk to new employees.
-    - A park ranger explaining rules and wildlife in a national park.
-    - A librarian explaining new digital resources.
-    - A volunteer coordinator describing a tree-planting project.
+    Pick a RANDOM topic from this NEW list below:
+    - A town council representative explaining changes to local rubbish collection and recycling services.
+    - A theatre manager announcing the upcoming season of plays and ticket booking details.
+    - A gym manager giving a tour of new sports facilities and explaining class schedules.
+    - A travel agent describing a specific holiday package or day-trip excursion to tourists.
+    - A police officer giving a community talk on home security and crime prevention.
+    - A university accommodation officer explaining housing rules to new students.
+    - A radio host interviewing a local gardener about seasonal planting advice.
 
     Followed by 4 Multiple Choice Questions based on specific details (numbers, times, names, locations).
     

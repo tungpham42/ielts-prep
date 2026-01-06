@@ -53,7 +53,16 @@ const ReadingBand: React.FC = () => {
     setSubmitted(false);
 
     const systemPrompt = `You are an IELTS Reading Exam generator. Output STRICT VALID JSON only.`;
-    const userPrompt = `Generate a short academic reading passage (approx 250 words, Topic: Random). 
+    const userPrompt = `Generate a short academic reading passage (approx 250-300 words).
+    Pick a RANDOM topic from this NEW list below:
+    - The psychological effects of remote working on employee productivity.
+    - Biomimicry in architecture: How nature influences building design.
+    - The history and cultural significance of the Silk Road trade route.
+    - The role of sleep in memory consolidation and learning.
+    - Urban planning concepts: The rise of the "15-minute city".
+    - The impact of microplastics on marine ecosystems and food chains.
+    - Advances in vertical farming as a solution to food security.
+
     Followed by 4 questions (2 MCQ, 2 TFNG). 
     
     Structure:
