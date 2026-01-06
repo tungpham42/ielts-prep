@@ -1,0 +1,59 @@
+/* App.css */
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Work Sans", sans-serif;
+  background-color: #f5f7fa; /* Soft academic gray/blue */
+  color: #2c3e50;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Scrollbar styling for a cleaner look */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e0;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #a0aec0;
+}
+
+/* Markdown Table Styling for Writing Feedback */
+.markdown-body table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+  margin-bottom: 16px;
+}
+
+.markdown-body th {
+  background-color: #e6f7ff;
+  color: #0050b3;
+  font-weight: 600;
+  padding: 12px 16px;
+  text-align: left;
+  border-bottom: 2px solid #bae7ff;
+}
+
+.markdown-body td {
+  padding: 12px 16px;
+  border-bottom: 1px solid #f0f0f0;
+  color: #4a5568;
+}
+
+.markdown-body h2 {
+  color: #2c3e50;
+  margin-top: 24px;
+  border-bottom: 2px solid #f0f0f0;
+  padding-bottom: 8px;
+}
